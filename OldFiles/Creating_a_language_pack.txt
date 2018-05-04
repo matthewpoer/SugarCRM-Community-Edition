@@ -1,0 +1,52 @@
+SugarCRM Open Source
+
+Creating a new language pack
+
+Creating a language pack is a simple process. The best place to start is with an existing language pack and copy it. Here are the necessary steps.
+
+1) Add the new language in the $languages variable in the config.php file.
+For instance, to add Spanish, modify config.php to look like the following:
+
+      languages = Array('en_us'=>'US English','sp_sp'=>'Spanish'); 
+
+While you can choose any key value you want for your new language, we recommend following the standard locale naming convention. For example, en_en for English, en_us for US English, ge_ge for German or ge_ch for Swiss German. This key value will be the prefix for all of your new language files.
+
+Note: You can also set the default language in the config.php.
+
+2) Cut and paste each of the en_us.lang.php string files that ship with the distribution into a new file with the new prefix you set in the step above.
+
+There are three general locations to create the new language files.
+
+    * include/language/new.lang.php - This file contains the strings common across the entire application. This file must exist for each new language.
+    * modules/some_module/language/new.lang.php - These files contain the strings specific to each module. In general, you should expect to create a language-specific string file for each module if that module displays any strings.
+    * themes/some_theme/language/new.lang.php - These files contain strings specific to each theme. Themes will not always have string files as they may simply rely on the application strings set in include/language/.lang.php. 
+
+It's as simple as that!
+
+3) Each user can modify his/her selected language in the User screen. Simply click on "My Account"->Edit and change the Language dropdown value. If the user does not change this value, the default language will always be used when the user logs in.
+
+4) We encourage folks to contribute language packs back to the SugarCRM Open Source Project so that everyone can benefit from your work. To contribute a language pack, simply create a zip file of all the string files and send it to support@sugarcrm.com. We will then post the language pack on SourceForge.net.
+
+Be sure to maintain the path names in the zip file. For instance, the zip file for a Spanish language pack might look like this: include/language/sp.lang.php
+
+    * modules/Accounts/language/sp.lang.php
+    * modules/Activities/language/sp.lang.php
+    * modules/Administration/language/sp.lang.php
+    * modules/Calls/language/sp.lang.php
+    * modules/Cases/language/sp.lang.php
+    * modules/Contacts/language/sp.lang.php
+    * modules/Dashboard/language/sp.lang.php
+    * modules/Emails/language/sp.lang.php
+    * modules/Help/language/sp.lang.php
+    * modules/Home/language/sp.lang.php
+    * modules/Meetings/language/sp.lang.php
+    * modules/Notes/language/sp.lang.php
+    * modules/Opportunities/language/sp.lang.php
+    * modules/Tasks/language/sp.lang.php
+    * modules/Users/language/sp.lang.php
+    * modules/Yahoo/language/sp.lang.php
+    * themes/coolblue/language/sp.lang.php 
+
+After you create your new files by cutting and pasting the en_us.lang.php files, open each file and translate the strings from English. The strings are defined inside of global arrays and the array syntax does need to be maintained for everything to work. A common problem you will quickly see if the array syntax is off is that the user interface doesn't display at all (big blank page).
+
+Note: In the include/language/new.lang.php file, you will see that there are two global arrays defined. The $app_list_strings array is actually an array of arrays. The key values in this array must not be changed. There are comments and examples in the code that should keep you on track.

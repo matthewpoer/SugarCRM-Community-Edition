@@ -1,0 +1,17 @@
+Upgrade Sugar Open Source
+Sugar Open Source v2.5 to Sugar Open Source v2.5.1 
+
+1. Backup your v2.5 database.
+2. Run the SQL upgrade script in order to upgrade the database to the 2.5 
+   schema.
+      - 2.5-2.5.1_open_db_upgrade.sql
+3. Unzip the 2.5.1 application into your Sugar web root
+4. Run the installer by going to 
+    http://<your_machine>/<sugarcrm_root>/install.php and point your 
+   system to the upgraded database.  
+   NOTE: DO NOT select "Drop and re-create existing SugarCRM tables?"
+5. Rename or remove your <sugarcrm_root>/install/ directory for security 
+   purposes
+6. Remove write permissions to your config.php file for security purposes
+ 
+You have now successfully upgraded to Sugar Open Source v2.5.1.  Enjoy!

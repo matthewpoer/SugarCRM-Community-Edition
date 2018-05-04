@@ -1,0 +1,17 @@
+Upgrade Sugar Sales 
+Sugar Sales Pro v1.5 to Sugar Sales Pro v2.0 
+
+1. Backup your v1.5 database.
+2. Run the SQL upgrade script in order to upgrade the database to the 2.0 schema.
+    - 1.5-2.0_open_db_upgrade.sql
+3. Unzip the 2.0 application into your web root
+4. Run the installer and point the 2.0 application to the upgraded database
+5. Log into the application with an admin account
+6. Click on Admin in the top right of the application to go into the admin console
+7. Click Upgrade
+6. Click Opportunities to upgrade your opportunity amounts to numeric values
+     - This step can be fairly involved if you have any non-numeric data in your Opportunity Amount fields.  The upgrade
+       steps will walk you through converting any non-numeric value to a numeric value.  This upgrade utility does allow
+       you to easily restore your original amount values if you make any mistakes during the process.
+ 
+You have now successfully upgraded to Sugar Sales 2.0  Enjoy!

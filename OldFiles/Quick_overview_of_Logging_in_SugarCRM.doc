@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f36\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}
+{\f37\froman\fcharset238\fprq2 Times New Roman CE;}{\f38\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f40\froman\fcharset161\fprq2 Times New Roman Greek;}{\f41\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\f397\fswiss\fcharset238\fprq2 Verdana CE;}{\f398\fswiss\fcharset204\fprq2 Verdana Cyr;}{\f400\fswiss\fcharset161\fprq2 Verdana Greek;}{\f401\fswiss\fcharset162\fprq2 Verdana Tur;}{\f404\fswiss\fcharset186\fprq2 Verdana Baltic;}
+{\f405\fswiss\fcharset163\fprq2 Verdana (Vietnamese);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;
+\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green102\blue255;}{\stylesheet{
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{
+\s15\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \f36\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext15 \styrsid6843509 Normal (Web);}{\*\cs16 \additive \b 
+\sbasedon10 \styrsid6843509 Strong;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid6843509}{\*\generator Microsoft Word 11.0.5604;}{\info{\title Quick overview of Logging in SugarCRM}{\author John D. Roberts}{\operator John D. Roberts}
+{\creatim\yr2004\mo7\dy3\hr20\min18}{\revtim\yr2004\mo7\dy3\hr20\min19}{\version1}{\edmins1}{\nofpages1}{\nofwords256}{\nofchars1461}{\nofcharsws1714}{\vern24689}}
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\formshade\horzdoc\dgmargin\dghspace180\dgvspace180\dghorigin1800\dgvorigin1440\dghshow1\dgvshow1
+\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule\nobrkwrptbl\snaptogridincell\allowfieldendsel\wrppunct
+\asianbrkrule\rsidroot6843509\newtblstyruls\nogrowautofit\viewbksp1 \fet0\sectd \linex0\endnhere\sectlinegrid360\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang 
+{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang 
+{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain 
+\s15\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0\pararsid6843509 \f36\fs20\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid6843509 Quick overview of Logging in SugarCRM}{
+\insrsid6843509 
+\par }{\insrsid6843509 We are using Log4php throughout the project.\line All logging output goes to the root of the application in a file called sugarcrm.log.
+\par To add logging include the logging file:\line }{\cs16\b\insrsid6843509 require_once('logging.php'); }{\insrsid6843509 
+\par Then create an instance (populate the object name as appropriate):\line }{\cs16\b\insrsid6843509 $log = LoggerManager::getLogger('}{\cs16\b\cf17\insrsid6843509 [my file or object name]}{\cs16\b\insrsid6843509 ');}{\insrsid6843509 
+\par Then there are 4 methods to call for logging. Each one takes a string.\line }{\cs16\b\insrsid6843509 $log->debug("string")}{\insrsid6843509  -- This logs at the debug level. Sh
+ould be used for tracing function calls and low level details. Used for debugging only.
+\par }{\cs16\b\insrsid6843509 $log->info("string")}{\insrsid6843509  -- This logs at the info level. Should be used for higher level tracing and functions. Should be used much less and can be used to figure out if a component is being hit.
+\par }{\cs16\b\insrsid6843509 $log->warn("string")}{\insrsid6843509 
+ -- This logs at the warn level. Should be used for things that are a problem, but are not critical. For instance, if an object is requested and the process cannot find it, that might be a warning. Someone either
+ make a shortcut or there was a concurrency problem, ...
+\par }{\cs16\b\insrsid6843509 $log->fatal("string") }{\insrsid6843509 -- This logs at the fatal level. Should be used for critical failure messages only. For example, if the page that is being included cannot be found, that should be a fatal log message.
+
+\par The log levels are listed in order of severity. If the logging level is set to debug, all log levels messages are logged. If set to info, all but debug are logged, ... To change the current logging level go to the root of the application folder and
+ open log4php.properties.
+\par Change the word fatal in the following line to the appropriate level (debug, info, warn, fatal):\line }{\cs16\b\insrsid6843509 log4php.rootLogger=}{\cs16\b\cf17\insrsid6843509 fatal}{\cs16\b\insrsid6843509 , A2}{\insrsid6843509 
+\par Then save. The changes should be immediate.}{\insrsid6843509 
+\par }\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid6843509 
+\par }}
