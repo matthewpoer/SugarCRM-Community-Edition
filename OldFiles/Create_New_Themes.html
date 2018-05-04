@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p><STRONG><FONT face="Verdana, Arial, Helvetica, sans-serif"><FONT 
+color=#ff0000>Sugar</FONT><font face="Verdana, Arial, Helvetica, sans-serif">CRM Open Source</font></FONT></STRONG></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif"><strong>Creating a new user interface theme </strong></font></p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif">1) Every time a screen is written out to the browser, the code path starts with index.php in the main directory root.  Understanding what variables this file sets and uses is important.  The most important variable for this exercise is:  </font></p>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>index.php line 138</strong>	<em>$theme = $_SESSION['authenticated_user_theme'];  
+  </p>
+</em>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>index.php line 142 </strong><em>$theme = $default_theme;
+  </p>
+</em>
+  <p>Understanding exactly where and how <em>$_SESSION['authenticated_user_theme'] </em>is set is less important at this point than understanding the basic logic behind it:
+    <br>
+    <em>if there is an authenticated user and that user has a personal theme preference defined, <br>
+    then set $theme to that value <br>
+    else set $theme to the system default value</em></p>
+  <p>2) You will see at the bottom of index.php that the HTML is eventually drawn by calling or "including" the following three files: </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>index.php line 208 </strong><em>include('themes/'.$theme.'/header.php');    </em>
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>index.php line 225 </strong><em>include($currentModuleFile); </em>    </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>index.php line 230	</strong><em>include('themes/'.$theme.'/footer.php');</em>
+  </p>
+  <p>The $theme value defines which header and footer are used from the themes directory.  Each screen is essentially a "header" and "footer" wrapped around the $currentModuleFile "body", which is determined by the POST parameters sent into index.php.</p>
+  <p>3) Each directory in the theme directory defines a different theme.  There are 3 files that every SugarCRM theme must contain.  Those are:        </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>theme/&lt;theme&gt;/footer.php</strong> - defines all of the HTML on the bottom of the page. By modifying the code in this file, you can change the bottom of every page.        
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>theme/&lt;theme&gt;/header.php </strong>- defines all of the HTML on the top of the page and on the left of the page.  By modifying the code in this file, you can change the top and left side of every page.        
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>theme/&lt;theme&gt;/layout_utils.php </strong>- defines a series of helper functions that draw the HTML for group boxes around forms and other layout components.  By modifying the code in this file, you can change the look and feel of form headers/footers, form titles, etc.
+  </p>
+  <p>In the themes that shipped with SugarCRM v1.0, we also use two non-required files that help define the look and feel of each theme.  A designer could choose not organize the logic included in these files in any matter he/she sees fit.          </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>theme/&lt;theme&gt;/style.css </strong>- defines the style sheet for the theme.  All of the different classes used throughout the app are typically defined in this file.  You could break them out into other files if you so chose, but the convention is to use style.css.          
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>theme/&lt;theme&gt;/header.html </strong>- we use a PHP template library called Xtemplates for separating the business logic from the presentation in the app.  Xtemplates essentially allow you to define a series of dynamic tags in a PHP file (header.php in this case) and then reference those tags in an HTML file.  You are not required to use a header.html with your header.php, but it is the convention.
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"><strong>theme/&lt;theme&gt;/config.php </strong>- you will see this in some of the SugarCRM v1.0 themes. As of 1.0, this is still a relatively simple metadata mechanism.  It simply allows you to define a different name to be displayed in the UI than the name of the directory.  For instance, the "akodarkgem" theme has a display name of "Gamer" in our app.  This display name is defined in themes/akodarkgem/config.php.  In the future, this file will also include other theme metadata such as the theme designer's name.
+  <p>4) To create a new theme, simply cut and paste any one of the existing themes we ship out of the box to a new directory and start modifying it.  Some ideas for possible changes would be:
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif"> Add new images in the page header/footer or in the form headers/footers                
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif">Change the color scheme
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif">Move around the layout of the search box.                    
+  </p>
+</font>
+<li><font face="Verdana, Arial, Helvetica, sans-serif">Change the icons for each module. 
+  </p>
+</font>
+<p><font face="Verdana, Arial, Helvetica, sans-serif">If you run into any issues or have any questions, please post a question to the forums. Have fun! </font></p>
+</body>
+</html>
