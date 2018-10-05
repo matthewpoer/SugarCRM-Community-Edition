@@ -9,7 +9,7 @@ SugarCRM (the company) ceased support of the 6.5 branch of its software on April
 
 # Why You Might Want This
 * applications that include non-upgrade-safe custom code can be compared to an "out of box" application of the same version to identify those customizations
-* a compromized or corrupted system could have its configuraiton and data migrated to a same-version application on a new platform.
+* a compromised or corrupted system could have its configuraiton and data migrated to a same-version application on a new platform.
 * there is documentation on these legacy editions of Sugar that cannot be found in any blog or forum, although SugarCRM does still host some very helpful resources at [Unsupported Versions](http://support.sugarcrm.com/Documentation/Unsupported_Versions/).
 
 # So What's a Good Open Source Alternative to SugarCRM?
